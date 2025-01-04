@@ -1,0 +1,228 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom right, #0058e5 50%, #4ea7ffef 50%);
+  
+  
+}
+
+
+
+
+h2 {
+  color: #ffffff;
+}
+ul{
+  color: #ffffff;
+  list-style-type: none;
+}
+
+.container-fluid{
+  font-weight: bold;
+    color: #ffffff; 
+}
+
+
+
+/* Header Section */
+
+.Header{
+  margin-bottom: 200px;
+  background: linear-gradient(to top left, #5056fb 40%, #4ea7ff8c 62%);
+  color: #fff;
+}
+
+.Header h1 {
+  font-size: 3rem;
+}
+
+.Header img {
+  margin-top: 50px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  
+}
+
+
+
+ .cta-container {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.cta-button{
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #fff;   
+  background-color: #007BFF; 
+  text-decoration: none; 
+  border-radius: 5px;  
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.cta-button:hover {
+
+  background-color: #3300b3; 
+  color:#0077ff;
+  transform: scale(1.05); 
+} 
+
+
+
+/* Objective Section */
+
+#objective{
+  
+  background: linear-gradient(to bottom right, #5056fb 40%, #4ea7ff8c 62%);
+  padding: 160px;
+  color: #fbfbfb;
+
+}
+
+
+
+
+/* Education Section */
+
+#education{
+   margin-top: 200px;
+   margin-bottom: 200px; 
+  background: linear-gradient(to bottom left, #5056fb 50%, #4ea7ff8c 62%);
+  padding: 100px;
+  color: #fbfbfb;
+}
+
+#education h4 {
+  color: #fbfbfb;
+}
+
+
+
+#education h6 {
+  
+ margin: 20px;
+
+  
+}
+#education .info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  
+}
+.info img{
+  margin: 20px;
+  width: 350px;
+  height: 350px;
+}
+
+
+
+
+/* Skills section */
+
+#skills{
+  background: linear-gradient(to bottom right, #5056fb 40%, #4ea7ff8c 62%);
+  padding: 160px;
+  color: #fbfbfb;
+margin-bottom: 200px;
+}
+
+
+/* Projects Section */
+
+#projects {
+padding: 100px;
+  background: linear-gradient(to bottom right, #0058e5 60%, #4ea7ff8c 82%,); 
+  
+}
+
+.card {
+  border: none;
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  color: #bbd5f2;
+}
+
+.card-body {
+  padding: 20px;
+  
+}
+
+  /* Experience Section */
+
+#experience{
+  margin-top: 160px;
+  background: linear-gradient(to bottom left, #5056fb 40%, #4ea7ff8c 62%);
+  padding: 100px;
+  color: #fbfbfb;
+
+}
+
+
+/* Contact Section */
+
+#contact {
+  
+  
+  padding: 200px;
+  color: #fff;
+}
+
+  
+
+
+
+/* Footer */
+
+footer {
+  background-color: rgba(0, 0, 0, 0.658);
+  color: #fff;
+  padding: 20px 0;
+  font-size: 14px;
+ text-align: center;
+}
+
+
+
+/* Card for Projects */
+
+.card {
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.card-body {
+  background: linear-gradient(to top right, #0058e5, #00bfff);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+/* Responsive Media Queries */
+
+@media (max-width: 768px) {
+  .hero h1 {
+      font-size: 2rem;
+  }
+
+  .card {
+      margin-bottom: 20px;
+  }
+}
